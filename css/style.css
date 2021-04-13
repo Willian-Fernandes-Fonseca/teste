@@ -2,32 +2,28 @@
     margin: 0;
     padding: 0;
 }
-nav{
-    width: 900px;
-    margin: 0 auto;
-}
-.container{
-    list-style: none;
-    float: left;
-    border: 1px solid black;
-}
-.container li{
+
+.primaria{
+    background: pink;
     position: relative;
-    float: left;
-    border-right: 1px solid black;
-    padding: 20px;
+    min-height: 150px;
 }
-.container li ul{
+.ativo{
+    background: blue;
     position: absolute;
-    top: 58px;
-    left: 0;
+    top: 0;
+    left: 180px;
+}
+.primaria p{
+    display: inline-block;
+    padding: 30px;
+}
+.secundaria{
     display: none;
 }
-.container li:hover ul, .container li.over ul{
-    display: block;
+.secundaria p{
+    display: inline-block;
 }
-.container li ul li{
-    border: 1px solid black;
-    display:block;
-    width: 150px;
+.ativo:hover .secundaria{
+    display: block;
 }
