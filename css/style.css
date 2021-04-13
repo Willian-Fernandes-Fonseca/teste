@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 900px;
+    margin: 0 auto;
+}
+.container{
+    list-style: none;
+    float: left;
+    border: 1px solid black;
+}
+.container li{
+    position: relative;
+    float: left;
+    border-right: 1px solid black;
+    padding: 20px;
+}
+.container li ul{
+    position: absolute;
+    top: 58px;
+    left: 0;
+    display: none;
+}
+.container li:hover ul, .container li.over ul{
+    display: block;
+}
+.container li ul li{
+    border: 1px solid black;
+    display:block;
+    width: 150px;
+}
