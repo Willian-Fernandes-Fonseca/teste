@@ -1,29 +1,88 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.clear{
+    clear: both;
+}
+.all{
+    width: 90%;
+    height: auto;
+    padding: 50px;
+    background-color: #f2f2f2;
+    box-shadow: 5px 5px 8px gray;
+    margin: 50px 2%;
+}
+.container{
+    width: 53%;
+    min-width: 850px;
+    height: auto;
+    margin: 50px auto;
+}
+.card{
+    max-width: 200px;
+    padding: 40px;
+    background-color: #e28525;
+    color: white;
+    float: left;
+}
+.um{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.dois{
+    background-color:  #016972;
 }
 
-.primaria{
-    background: pink;
-    position: relative;
-    min-height: 150px;
+.tres{
+    background-color:  #003f3f;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.ativo{
-    background: blue;
-    position: absolute;
-    top: 0;
-    left: 180px;
+
+.card img{
+    margin: 20px 0 20px 0;
 }
-.primaria p{
-    display: inline-block;
-    padding: 30px;
+.card h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
 }
-.secundaria{
-    display: none;
+.card p{
+    padding-right: 50px;
+    line-height: 24px;
 }
-.secundaria p{
-    display: inline-block;
+.card p:last-child{
+    margin-top: 60px;
+    background-color: white;
+    color: #e28525;
+    padding: 10px;
+    border-radius: 30px;
+    width: 110px;
+    text-align: center;
+    border: 1px solid white;
 }
-.ativo:hover .secundaria{
-    display: block;
+.dois p:last-child{
+    color: #016972;
+}
+.tres p:last-child{
+    color:#003f3f;
+}
+.card p:last-child:hover{
+    background: #e28525;
+    color: white;
+    cursor: pointer;
+}
+.tres p:last-child:hover{
+    background: #003f3f;
+    color: white;
+    cursor: pointer;
+}
+.dois p:last-child:hover{
+    background: #016972;
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 300px){
+
 }
