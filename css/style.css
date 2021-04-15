@@ -8,8 +8,7 @@
     clear: both;
 }
 .all{
-    width: 90%;
-    max-width: 1280px;
+    width: 100%;
     height: auto;
     padding: 50px;
     background-color: #f2f2f2;
@@ -17,7 +16,7 @@
     margin: 50px auto;
 }
 .container{
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
     margin: 50px auto;
 }
@@ -88,10 +87,24 @@
 
 @media only screen and (max-width: 1080px){
     .container{
-        min-width: 100%;
+        width: 80%;
         max-width: 1080px;
         height: auto;
         margin: 50px auto;
+    }
+    .card{
+        width:25%;
+        padding: 30px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .container{
+        width: 90%;
+        max-width: 1080px;
+        height: auto;
+        margin: 50px 1%;
     }
     .card{
         width:25%;
