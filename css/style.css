@@ -8,19 +8,21 @@
 }
 .all{
     width: 90%;
+    max-width: 1280px;
     height: auto;
     padding: 50px;
     background-color: #f2f2f2;
     box-shadow: 5px 5px 8px gray;
-    margin: 50px 2%;
+    margin: 50px auto;
 }
 .container{
-    width: 53%;
-    min-width: 850px;
+    min-width: 53%;
+    max-width: 850px;
     height: auto;
     margin: 50px auto;
 }
 .card{
+    width:20%;
     max-width: 200px;
     padding: 40px;
     background-color: #e28525;
@@ -83,6 +85,46 @@
     color: white;
     cursor: pointer;
 }
-@media only screen and (max-width: 300px){
-
+@media only screen and (max-width: 840px){
+    .all{
+        width: 98%;
+        height: auto;
+        padding: 50px;
+        margin: 50px 0;
+    }
+}
+@media only screen and (max-width: 840px){
+    .all{
+        width: 90%;
+        max-width: 1280px;
+        height: auto;
+        padding: 10px 0 10px 0;
+        background-color: #f2f2f2;
+        box-shadow: 5px 5px 8px gray;
+        margin: 50px auto;
+    }
+    .card{
+        width:100%;
+        padding: 40px;
+        float: none;
+        margin: 0 auto;
+    }
+    .um{
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0%;
+    }
+    .tres{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-top-right-radius: 0%;
+    }
+}
+@media only screen and (max-width: 330px){
+    .card{
+        width:100%;
+        padding: 20px;
+        float: none;
+        margin: 0 auto;
+    }
 }
