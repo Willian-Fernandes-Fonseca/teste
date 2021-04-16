@@ -88,6 +88,7 @@
 @media only screen and (max-width: 1080px){
     .container{
         width: 90%;
+        padding-left: 10%;
         height: auto;
         margin: 50px auto;
     }
