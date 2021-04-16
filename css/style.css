@@ -9,13 +9,13 @@
 .all{
     width: 100%;
     height: auto;
-    padding: 50px;
+    padding: 50px 0 50px 0;
     background-color: #f2f2f2;
     box-shadow: 5px 5px 8px gray;
     margin: 50px auto;
 }
 .container{
-    max-width: 50%;
+    width: 60%;
     height: auto;
     margin: 50px auto;
 }
@@ -86,8 +86,7 @@
 
 @media only screen and (max-width: 1080px){
     .container{
-        width: 80%;
-        max-width: 1080px;
+        width: 90%;
         height: auto;
         margin: 50px auto;
     }
@@ -99,11 +98,15 @@
 }
 
 @media only screen and (max-width: 900px){
+    .all{
+        padding: 10px 0;
+    }
     .container{
         width: 90%;
+        padding: 0;
         max-width: 1080px;
         height: auto;
-        margin: 50px 1%;
+        margin: 50px auto;
     }
     .card{
         width:25%;
@@ -115,7 +118,6 @@
 @media only screen and (max-width: 840px){
     .all{
         width: 90%;
-        max-width: 840px;
         height: auto;
         padding: 10px 0 10px 0;
     }
@@ -140,12 +142,11 @@
    
     .all{
         padding: 5px 0;
-
     }   
     
     .container{
         width: 100%;
-       padding: 0;
+        padding: 0;
     }
     .card{
         width:100%;
